@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/murekbot-rewrite.iml" filepath="$PROJECT_DIR$/.idea/murekbot-rewrite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../piko/.idea/piko.iml" filepath="$PROJECT_DIR$/../piko/.idea/piko.iml" />
     </modules>
   </component>
 </project>
