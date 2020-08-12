@@ -22,7 +22,7 @@ module.exports = class AddCommand extends Command {
     async run(msg, args, fromPattern, result) {
         let data = JSON.parse((await msg.client.knex('guilds').where('id', msg.guild.id).limit(1))[0].commands)
         if (!data.find(r => r.req === args.keyword)) {
-            return msg.say('해 키워드는 존재하지 않습니다.')
+            return msg.say('해당 키워드는 존재하지 않습니다.')
         }
 
         const idx = data.findIndex(r => r.req === args.keyword)
