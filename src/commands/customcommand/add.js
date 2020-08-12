@@ -6,7 +6,7 @@ module.exports = class AddCommand extends Command {
             name: '빠른말가르치기',
             description: '명령어를 추가합니다.',
             group: 'customcommand',
-            memberName: 'addcommand',
+            memberName: 'add',
             userPermissions: ['ADMINISTRATOR'],
             guildOnly: true,
             args: [
