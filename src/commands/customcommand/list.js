@@ -6,7 +6,7 @@ module.exports = class ListCommands extends Command {
         super(client, {
             guildOnly: true,
             group: 'customcommand',
-            memberName: 'customcommand_list',
+            memberName: 'list',
             name: '빠른말가르치기리스트',
             description: '커스텀 커맨드 목록 출력'
         });
