@@ -37,7 +37,7 @@ module.exports = class AddCommand extends Command {
 
         await msg.client.knex('guilds').update({commands: JSON.stringify(data)}).where('id', msg.guild.id)
 
-        await msg.react('731437745582637066')
+        await msg.react('✅')
     }
 }
 
