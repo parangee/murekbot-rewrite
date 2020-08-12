@@ -6,7 +6,7 @@ module.exports = class AddCommand extends Command {
             name: '빠른말가르치기삭제',
             description: '명령어를 제거합니다.',
             group: 'customcommand',
-            memberName: 'removecommand',
+            memberName: 'remove',
             userPermissions: ['ADMINISTRATOR'],
             guildOnly: true,
             args: [
