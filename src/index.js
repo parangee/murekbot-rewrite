@@ -98,7 +98,7 @@ client.registry
     .registerDefaultTypes()
     .registerGroups(
         [
-            ['general', '기본 모든 명령어 사용법은 [여기](https://docs.dosbot.tk/) 에 있습니다. '],
+            ['general', '기본'],
             ['customcommand', '커스텀 커맨드'],
             ['util', '유틸리티'],
             ['moderator', '관리'],
